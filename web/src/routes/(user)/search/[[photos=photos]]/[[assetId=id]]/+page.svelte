@@ -88,10 +88,7 @@
       assetInteraction.selectedAssets = [];
       return;
     }
-    if (!searchStore.preventRaceConditionSearchBar) {
-      handlePromiseError(goto(previousRoute));
-    }
-    searchStore.preventRaceConditionSearchBar = false;
+    handlePromiseError(goto(previousRoute));
   };
 
   $effect(() => {
