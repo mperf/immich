@@ -7,7 +7,7 @@ import { authStub } from 'test/fixtures/auth.stub';
 import { fileStub } from 'test/fixtures/file.stub';
 import { userStub } from 'test/fixtures/user.stub';
 
-const previewFile: AssetFile = {
+export const previewFile: AssetFile = {
   id: 'file-1',
   type: AssetFileType.PREVIEW,
   path: '/uploads/user-id/thumbs/path.jpg',
@@ -25,7 +25,7 @@ const fullsizeFile: AssetFile = {
   path: '/uploads/user-id/fullsize/path.webp',
 };
 
-const files: AssetFile[] = [fullsizeFile, previewFile, thumbnailFile];
+export const files: AssetFile[] = [fullsizeFile, previewFile, thumbnailFile];
 
 export const stackStub = (stackId: string, assets: AssetEntity[]): StackEntity => {
   return {
