@@ -25,7 +25,7 @@ const fullsizeFile: AssetFile = {
   path: '/uploads/user-id/fullsize/path.webp',
 };
 
-export const files: AssetFile[] = [fullsizeFile, previewFile, thumbnailFile];
+const files: AssetFile[] = [fullsizeFile, previewFile, thumbnailFile];
 
 export const stackStub = (stackId: string, assets: AssetEntity[]): StackEntity => {
   return {

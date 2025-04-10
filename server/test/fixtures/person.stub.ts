@@ -1,5 +1,5 @@
 import { AssetType } from 'src/enum';
-import { files, previewFile } from 'test/fixtures/asset.stub';
+import { previewFile } from 'test/fixtures/asset.stub';
 import { userStub } from 'test/fixtures/user.stub';
 
 const updateId = '0d1173e3-4d80-4d76-b41e-57d56de21125';
